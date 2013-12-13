@@ -18,6 +18,11 @@ module Adhearsion
         primary_queue    'adhearsion-jobs',           desc: 'The general queue'
         priority_labels  PRIORITY_LABELS,             desc: 'priority labels'
       end
+
+      init :adhearsion_beanstalkd do
+        # TODO: Adding init code here
+      end
+
     end
   end
 end
