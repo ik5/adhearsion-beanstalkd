@@ -20,7 +20,7 @@ module Adhearsion
       end
 
       init :adhearsion_beanstalkd do
-        # TODO: Adding init code here
+        Service.start
       end
 
     end
